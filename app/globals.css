@@ -1,0 +1,277 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+
+.explore-btn {
+  flex: 0 0 auto;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  font-weight: 450;
+  border: solid #6366f1 2px;
+  border-radius: 15px;
+  margin: 5px 0 20px 0;
+  background-color: rgb(249, 250, 251);
+  transition: 0.5s;
+}
+
+.search-ticker-input {
+  flex: 0 0 auto;
+  width: 75%;
+  border: solid rgb(125, 124, 124) 2px;
+  border-radius: 10px;
+  padding: 5% 10px 10px 10px;
+  margin: 6px 0px 6px 0px;
+}
+
+.explore-btn:hover {
+  background: #6366f1;
+  letter-spacing: 0.2em;
+  color: whitesmoke;
+  box-shadow: 0 0 10px #6366f1;
+}
+
+.explore-btn:before {
+  content: "";
+  position: absolute;
+  /*inset: 2px; */
+  background: #6366f1;
+}
+
+.explore-btn-text {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.explore-page-text {
+  text-align: left;
+  color: rgb(29, 4, 4);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+.recommend-key-hold {
+  color: rgb(216, 17, 57);
+
+  text-transform: uppercase;
+}
+
+.recommend-key-buy {
+  color: rgb(14, 234, 14);
+
+  text-transform: uppercase;
+}
+
+.react-icons {
+  height: 50px;
+  width: 50px;
+}
+
+.spinner {
+  height: 110px;
+  width: 110px;
+  border: 6px solid rgb(124, 123, 123);
+  border-color: rgb(124, 123, 123) transparent rgb(124, 123, 123) transparent;
+  border-radius: 50%;
+  animation: spin 1.3s ease infinite;
+  margin: 6rem 0 0 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.proj-cards {
+  transition: 0.5s;
+}
+
+.proj-cards:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px #6366f1;
+  letter-spacing: 0.1em;
+}
+
+.forgotPasswordLink {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.google-btn {
+  border-radius: 50px;
+}
+
+.nav-login-text {
+  padding: 5px 10px 5px 5px;
+}
+
+.user-pic {
+  border-radius: 20px;
+}
+
+.nav-md-add-on {
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
+}
+
+.sign-up-page {
+  margin: 6rem 30rem 2rem 30rem;
+  padding: 2rem 4rem 2rem 4rem;
+  text-align: center;
+  border-radius: 80px;
+  box-shadow: 0px 10px 30px #6366f1;
+  opacity: 90%;
+}
+
+.sign-up-text {
+  text-align: center;
+  color: rgb(29, 4, 4);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  padding-bottom: 1rem;
+}
+
+.input {
+  flex: 0 0 auto;
+  width: 75%;
+  border: solid rgb(125, 124, 124) 2px;
+  border-radius: 10px;
+  padding: 5% 10px 10px 10px;
+  margin: 6px 6px 6px 6px;
+}
+
+#password {
+  flex: 0 0 auto;
+  width: 75%;
+  border: solid rgb(125, 124, 124) 2px;
+  border-radius: 10px;
+  padding: 5% 10px 10px 10px;
+  margin: 6px 6px 6px 6px;
+}
+
+#email {
+  flex: 0 0 auto;
+  width: 75%;
+  border: solid rgb(125, 124, 124) 2px;
+  border-radius: 10px;
+  padding: 5% 10px 10px 10px;
+  margin: 6px 6px 6px 6px;
+}
+
+.sign-up-btn {
+  flex: 0 0 auto;
+
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  font-weight: 450;
+  border: solid #6366f1 2px;
+  border-radius: 15px;
+
+  background-color: rgb(249, 250, 251);
+  transition: 0.5s;
+}
+
+.sign-up-btn:hover {
+  background: #6366f1;
+  letter-spacing: 0.2em;
+  color: whitesmoke;
+  box-shadow: 0 0 25px #6366f1;
+}
+
+.sign-up-btn:before {
+  content: "";
+  position: absolute;
+  /*inset: 2px; */
+  background: #6366f1;
+}
+
+.sign-up-btn-text {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.nav-start-add-on {
+  flex: 0 0 auto;
+
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  font-weight: 450;
+
+  border-radius: 15px;
+  padding: 20px 20px 20px 20px;
+
+  transition: 0.5s;
+}
+
+.nav-start-add-on:hover {
+  padding: 15px 15px 15px 15px;
+}
+
+.nav-md-animate {
+  flex: 0 0 auto;
+
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  font-weight: 450;
+
+  border-radius: 15px;
+  padding: 5px 15px 5px 15px;
+  margin: 5px 0 5px 0;
+
+  transition: 0.5s;
+}
+
+.nav-md-animate:hover {
+  letter-spacing: 0.2em;
+
+  color: whitesmoke;
+}
+
+.nav-md-animate:before {
+  content: "";
+  position: absolute;
+  /*inset: 2px; */
+}
+
+.nav-md-animate-text {
+  flex: 0 0 auto;
+}
+
+.nav {
+  box-shadow: 0 0 10px #6366f1;
+  border-radius: 40px;
+}
+
+.nav-text {
+  margin: 20px 5px 5px 5px;
+}
+
+.err-text {
+  color: rgb(216, 17, 57);
+}
+
+.prof-page {
+  margin: 6rem 30rem 6rem 30rem;
+  padding: 2rem 4rem 2rem 4rem;
+  text-align: left;
+  border-radius: 80px;
+  box-shadow: 0px 10px 30px #6366f1;
+  opacity: 90%;
+}
+
+.prof-text {
+  text-align: center;
+  color: rgb(29, 4, 4);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
