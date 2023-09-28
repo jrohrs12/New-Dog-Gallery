@@ -42,11 +42,11 @@ export default function Breeds() {
 
   return (
     <div className=" container">
-      <div className="">
-        <h1>Dog Breeds Dictionary</h1>
+      <div className=" font-thin">
+        <h1 className=" font-thin">Dog Breeds Dictionary</h1>
         <p>Here is a list of all breeds and sub-breeds</p>
         <div className="container mx-auto p-2">
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-3 gap-3 font-thin">
             {formatBreedList(breedData)}
           </div>
         </div>
